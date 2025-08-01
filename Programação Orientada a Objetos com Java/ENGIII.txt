@@ -31,7 +31,8 @@ Quem é a disciplina
 		2.1. O Manifesto ágil
 		2.2. A metodologia ágil Xp
 		2.3. A metodologia ágil Scrum
-		2.4. Certificação Scrum e Prática Ágil
+		2.4. Lean Inception
+		2.5. Certificação Scrum e Prática Ágil
 		
 	[3] Arquitetura de Sistemas e Frameworks
 	
@@ -52,5 +53,5 @@ Quem é a disciplina
 	
 		5.1. Desenvolvimento Orientado a Aspectos
 		5.2. Sistemas de Workflow
-		5.2. Recaptulação Sistemática para Recuperação
-						5.3. Recuperação de Conceitos
+		5.2. Recaptulação Sistemática
+		5.3. Recuperação de Conceitos
