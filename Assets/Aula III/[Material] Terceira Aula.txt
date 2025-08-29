@@ -1,0 +1,123 @@
+[Prática] Terceira Aula: (Workshop Colaborativo Lean Inception)
+{
+	[0] Kick-Off (5 Minutos)
+
+		Professor que será o facilitador
+		Explicar o que é Lean Inception [1] e como será a agenda
+		Facilitador explica aos presentes de forma breve o que é o MVP [2]
+		MVP = versão mínima que gera aprendizado real ou valida o negócio
+		MVP é um experimento → a menor versão de algo que gera aprendizado real
+		O aprendizado é validar a ideia com pessoas reais, não programar
+		O UAU é o detalhe pequeno que dá vontade de usar mesmo sendo simples
+			WhatsApp no começo era só troca de mensagens
+			Nubank no início só tinha cartão de crédito
+
+	[1] Visão do Produto (5 Minutos)
+
+		O que faz: cria uma frase de visão do produto (quem, o quê, para quê).
+		O que ensina: formular de forma clara para quem e para quê o produto existe.
+
+			Garantir que todos enxerguem o produto sob a mesma perspectiva
+			Cada membro deve preencher as lacunas da grande frase/visão do produto [3]
+			Time deve combinar as visões em uma única visão do produto
+			Isso evita que cada membro construa algo diferente
+			
+	[2] É / Não é – Faz / Não faz (10 Minutos)
+
+		O que faz: cria uma frase de visão do produto (quem, o quê, para quê).
+		O que ensina: formular de forma clara para quem e para quê o produto existe.
+
+			Previne que recursos e tempo sejam gastos em coisas que não fazem parte da proposta inicial
+			Cada membro pensa cada um dos 4 itens [4] e grupo monta consenso
+				É: características essenciais e identidade do produto
+				Não é: características que poderiam gerar confusão ou expectativas erradas
+				Faz: principais funcionalidades e ações que o produto vai oferecer
+				Não faz: funcionalidades fora do escopo inicial ou que não são foco do MVP
+			
+	[3] Persona (10 Minutos)
+
+		O que faz: descreve o ou os perfis de usuários que usarão o produto.
+		O que ensina: pensar no usuário real e nas suas necessidades.
+
+			Listar os usuários ideais (personas) do produto
+			Cada membro descreve o perfil/comportamento e necessidades [5] para cada persona do sistema
+			
+	[4] Jornadas do Usuário (10 Minutos)
+
+		O que faz: desenha o fluxo de uso, do começo ao fim da interação.
+		O que ensina: enxergar a experiência ponta a ponta e onde o produto se encaixa.
+	
+			Mapeamento das principais jornadas (caminhos) que o usuário terá dentro do produto
+			Identificar os perfis de usuários (personas) e suas necessidades
+			Descrever o passo a passo da interação do usuário desde o primeiro contato até atingir o objetivo
+			Garantir que todas as jornadas sejam claras para o time antes de passar para as funcionalidades
+			Cada membro descreve a jornada [6] para cada persona do sistema
+		
+	[5] Brainstorm de Funcionalidades (10 Minutos)
+
+		O que faz: gera ideias de funcionalidades que podem compor o produto.
+		O que ensina: divergir (pensar amplo, sem julgar) antes de priorizar.
+	
+			Geração livre de ideias sem filtro inicial (todo mundo contribui)
+			Agrupar ideias semelhantes para evitar duplicidade
+			Não se preocupar inicialmente com viabilidade ou prioridade
+			Cada membro descreve funcionalidades para o sistema [7]
+			Ao final, revisar e consolidar a lista para a próxima etapa
+
+	[6] Revisão Técnica/negócio e UX (10 Minutos)
+
+		O que faz: avalia cada feature em 3 dimensões: esforço técnico, valor para usuário, valor para negócio.
+		O que ensina: equilibrar visão técnica, experiência do usuário e estratégia de negócio.
+	
+			Avaliação da viabilidade técnica de cada funcionalidade listada [8]
+			Avaliar em esforço técnico (1), valor percebido pelo usuário (2) e valor gerado para o negócio (3)	
+			Cada membro da um peso de 1 a 3 para cada feature em relação a cada aspecto
+			Equipe revisa os pesos e forma um consenso sobre cada funcionalidade
+		
+	[7] Sequenciador de Funcionalidades (30 Minutos)
+
+		O que faz: organiza funcionalidades em ordem lógica (o que precisa vir antes/depois).
+		O que ensina: pensar em dependências e prioridades.
+	
+			Organizar as funcionalidades em ondas/ordem de entrega [9]
+			Priorizar com base em valor para o usuário e viabilidade técnica
+			Quebrar grandes funcionalidades em entregas menores e iterativas
+			Criar um mapa visual de "o que vem primeiro" para facilitar alinhamento
+			Dica: Lembrem que cada persona/perfil são regras/tabelas e interfaces
+				Tudo isso se resume em esforço/tempo e $ para criar/validar
+
+	[8] Canvas MVP (10 Minutos)
+
+		O que faz: define o MVP (o que entra, o que fica para depois).
+		O que ensina: enxugar escopo sem perder valor.
+
+			Consolidar tudo que foi discutido em um quadro único visual [10]
+			Definir indicadores para saber se o MVP atinge seu propósito
+			Quais são os indicadores?
+				Objetivo do MVP
+				Para quem
+				Quais Jornadas
+				Funcionalidades
+				Tempo Estimado
+				Resultados
+				Métricas de validação
+
+	[9] Plano de Ação (10 Minutos)
+
+		O que faz: cria uma linha do tempo de entregas (MVP e releases futuros).
+		O que ensina: planejar de forma incremental e iterativa.
+	
+			Quais tarefas precisam ser feitas?
+			Como serão feitas?
+			Quais datas ou quantas sprints/aulas (5) estão previstas?
+			Garantir clareza de responsabilidades e comunicação
+
+	[-] Próximos Passos (Lean → Agile → Scrum)
+
+		Lean Inception nos deu o quê e por quê
+		O time pode já começar com protótipos rápidos para validar fluxo e priorizar
+		A construção do backlog inicial é colaborativa e não produzida só pelo PO
+		A ideia de construir o backlog é pensar nas histórias (como) e nas estimativas (quanto)
+
+}
+
