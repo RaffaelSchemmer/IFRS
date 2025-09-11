@@ -1,0 +1,37 @@
+	[Aula I]
+
+ - Introdução ao Plano Pedagógico da Disciplina
+ 
+[Aula II]
+
+ - Introdução ao Android Studio
+ - Construímos nosso app template (app.zip)
+ - Construímos aplicação que muda a cor do layout com switch (appSwitch.zip)
+ 
+[Aula III]
+
+ - Construímos aplicação que insere uma imagem (appImage.zip)
+ - Construímos aplicação que toca sons (appSound.zip)
+ - Construímos aplicação que vibra celular (appFeed.zip)
+ - Construímos um pequeno game com as aplicações anteriores (appGame.zip)
+ 
+[Aula IV]
+
+ - Construímos aplicação que insere um contador manual (appContador.zip)
+ - Construímos aplicação que insere um contador automático (appCont.zip)
+ - Construímos aplicação que insere um timer (appTimer.zip)
+  
+[Aula V] 
+
+ - Construímos aplicação que trabalha com 3 layouts (appLayout.zip)
+ 
+[Aula VI]
+
+ - Construímos aplicação que insere caixas de diálogo (appDialog.zip)
+ - Construímos aplicação que insere com animações (appGif.zip)
+ - Revisamos o conteúdo como preparativo para avaliação
+ 
+[Aula VII]
+
+ - Avaliação I
+
