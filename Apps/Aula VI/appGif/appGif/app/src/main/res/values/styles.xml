@@ -1,8 +1,0 @@
-<resources>
-    <!-- Tema sem Action Bar -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Personalizações -->
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowActionBar">false</item>
-    </style>
-</resources>
