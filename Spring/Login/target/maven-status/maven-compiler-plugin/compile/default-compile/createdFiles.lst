@@ -1,5 +1,0 @@
-com\api\Api.class
-com\api\repository\UserRepository.class
-com\api\config\DataSourceConfig.class
-com\api\model\User.class
-com\api\controller\UserController.class
