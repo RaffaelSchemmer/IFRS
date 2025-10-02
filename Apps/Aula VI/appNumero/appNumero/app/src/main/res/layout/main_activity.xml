@@ -1,0 +1,92 @@
+<!--
+    ConstraintLayout: Layout pai que permite posicionamento flexível dos elementos.
+    - layout_width="match_parent" - Preenche toda a largura da tela.
+    - layout_height="match_parent" - Preenche toda a altura da tela.
+    - background="#4A58D3" - Define a cor de fundo do layout.
+-->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4A58D3"
+    android:windowSoftInputMode="adjustResize|stateVisible" >
+
+    <!--
+        TextView centralizado que mostra o contador.
+        - android:id="@+id/textViewContador" - Identificador do TextView.
+        - layout_width="wrap_content" - Largura se ajusta ao conteúdo.
+        - layout_height="wrap_content" - Altura se ajusta ao conteúdo.
+        - android:text="0" - Texto inicial.
+        - android:textColor="#81EB05" - Cor do texto.
+        - android:textSize="150sp" - Tamanho do texto.
+        - layout_constraintTop_toTopOf="parent" - Topo preso ao topo do layout pai.
+        - layout_constraintBottom_toBottomOf="parent" - Base preso ao bottom do layout pai.
+        - layout_constraintStart_toStartOf="parent" - Lado esquerdo preso ao layout pai.
+        - layout_constraintEnd_toEndOf="parent" - Lado direito preso ao layout pai.
+        - layout_constraintVertical_bias="0.318" - Ajusta posição vertical (0 = topo, 1 = base).
+    -->
+    <EditText
+        android:id="@+id/textViewCharada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#81EB05"
+        android:textSize="150sp"
+        android:inputType="number"
+        android:maxLength="2"
+        android:text="0"
+        android:enabled="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.218" />
+
+    <!--
+     Botão centralizado logo abaixo do EditText.
+     - android:id="@+id/textViewTexto" - Identificador do botão.
+     - layout_width="wrap_content" - Largura se ajusta ao conteúdo.
+     - layout_height="wrap_content" - Altura se ajusta ao conteúdo.
+     - android:width="150sp" - Define largura fixa (não recomendado usar sp para largura/altura, melhor usar dp).
+     - android:height="50sp" - Define altura fixa (idem acima).
+     - android:text="PALPITE" - Texto exibido no botão.
+     - android:textColor="#EB0569" - Cor do texto.
+     - android:backgroundTint="#B9E7F8" - Cor de fundo (tinta do botão).
+     - android:textSize="20sp" - Tamanho do texto.
+     - layout_constraintTop_toTopOf="@id/textViewContador" - Topo alinhado ao topo do EditText (pode ser ajustado se quiser que fique abaixo).
+     - layout_constraintBottom_toBottomOf="parent" - Base alinhada ao layout pai.
+     - layout_constraintStart_toStartOf="parent" - Lado esquerdo alinhado ao pai.
+     - layout_constraintEnd_toEndOf="parent" - Lado direito alinhado ao pai.
+ -->
+
+    <Button
+        android:id="@+id/buttonPalpite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="150sp"
+        android:height="50sp"
+        android:backgroundTint="#B9E7F8"
+        android:text="PALPITE"
+        android:textColor="#EB0569"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/textViewCharada" />
+
+    <ProgressBar
+        android:id="@+id/loadingSpinner"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/buttonPalpite"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+    /</androidx.constraintlayout.widget.ConstraintLayout>
